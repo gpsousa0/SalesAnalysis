@@ -1,0 +1,14 @@
+# Configuration file for data paths
+bronze:
+  products: layers/bronze/products.csv
+  sales_order_details: layers/bronze/sales_order_details.csv
+  sales_order_header: layers/bronze/sales_order_header.csv
+
+silver:
+  products: layers/silver/products/
+  sales_order_details: layers/silver/sales_order_details/
+  sales_order_header: layers/silver/sales_order_header/
+
+gold:
+  products: layers/gold/products/
+  publish_orders: layers/gold/publish_orders/
